@@ -22,7 +22,6 @@ public class StockAccountManagement {
         }
         double totalValue = 0.00;
         System.out.println("Stock Report");
-//        System.out.println("Stock Name  " + "  Number of Share  " + "  Share Price  " + "  value");
         for (int i = 0; i < nOfStock; i++) {
             double stockValue = nOfShare[i] * sharePrice[i];
             System.out.println("Stock Name : " + stockName[i] + " | Number of Share : " + nOfShare[i] + " | Share Price : " + sharePrice[i] + " | value : " + stockValue);
@@ -30,7 +29,6 @@ public class StockAccountManagement {
         }
         System.out.println("Total value = " + totalValue);
     }
-
     public static void main(String[] args) {
         stockAccountManagement();
     }
